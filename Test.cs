@@ -1,4 +1,4 @@
-﻿using Daily_Algorithm._2025_09.day0906;
+﻿using Daily_Algorithm._2025_09.day0907;
 
 namespace Daily_Algorithm;
 
@@ -6,7 +6,11 @@ public class Test
 {
     public static void Main()
     {
-        No10 a= new No10();
-        a.Print(new int[]{0, 1, 2, 4, 3}, new int[,] {{0, 4,2},{0,3,2},{0,2,2}});
+        No07 a= new No07();
+        a.Print(2,2,2,2);
+        a.Print(4,1,4,4);
+        a.Print(6,3,3,6);
+        a.Print(2,5,2,6);
+        a.Print(6,4,2,5);
     }
 }
