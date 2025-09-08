@@ -22,5 +22,5 @@ public class No09
     }
 }
 
-// [다른풀이1 - 유니코드]
+// [다른풀이1 - 아스키 코드]
 // return number.Select(s => s - '0').Sum() % 9; <- 숫자 형태의 string에 char 타입 0을 빼주면 int 타입으로 반환하나보다
