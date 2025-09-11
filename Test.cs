@@ -8,23 +8,29 @@ public class Test
     
     public static void Main()
     {
-        No08 a= new No08();
-        a.Print(new int[]{0,1,2,3,4,5},new int[]{4,1,2});
+        // No08 a= new No08();
+        // a.Print(new int[]{0,1,2,3,4,5},new int[]{4,1,2});
 
 
-        Act act = new Act(Animal.Walk);
-        
-        act -= Animal.Walk;
-        act += Animal.Walk;
+        Animal a = new Dog();
+        a.Walk();
     }
 }
 
 
-class Animal
+abstract class Animal
 {
-    public static void Walk()
+    public virtual void Walk()
     {
-        
+        Console.WriteLine("Walk");
+    }
+}
+
+class Dog : Animal
+{
+    public override void Walk()
+    {
+        Console.WriteLine("dog walk");
     }
 }
 
