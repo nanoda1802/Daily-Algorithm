@@ -1,4 +1,4 @@
-﻿using Daily_Algorithm._2025_09.day0912;
+﻿using Daily_Algorithm._2025_09.day0914;
 
 namespace Daily_Algorithm;
 
@@ -6,7 +6,7 @@ public class Test
 {
     public static void Main()
     {
-        No07 a= new No07();
-        Console.WriteLine(a.Print("banana", "ana"));
+        No03 a= new No03();
+        a.Print(new int[] { 0, 1, 1, 1, 0 });
     }
 }
