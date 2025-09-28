@@ -1,4 +1,4 @@
-﻿using Daily_Algorithm._2025_09.day0919;
+﻿using Daily_Algorithm._2025_09.day0928;
 
 namespace Daily_Algorithm;
 
@@ -6,25 +6,26 @@ public class Test
 {
     public static void Main()
     {
-        // var a= new No17();
-        // a.solution(1234);
-        // a.solution(930211);
+        var a= new No05();
+        a.solution(1,13,1);
+        a.solution(10,50,5);
+        
 
-        Me me = new Me();
-        me.introduce("Tom");
-        
-        Predicate<int> isEven = i => i % 2 == 0;
-        bool check = isEven(5); // false
-        
-        Func<int,int,string> add = (x,y) => $"{x} 더하기 {y}는 {x+y} 입니다.";
-        Console.WriteLine(add(3,5));
-        
-        Action<string> introduce = name => Console.WriteLine($"저는 {name} 입니다.");
-        introduce("Tom");
-        
-        Store store = new Store();
-        Customer customer = new Customer("Tom", store);
-        store.Sell(customer);
+        // Me me = new Me();
+        // me.introduce("Tom");
+        //
+        // Predicate<int> isEven = i => i % 2 == 0;
+        // bool check = isEven(5); // false
+        //
+        // Func<int,int,string> add = (x,y) => $"{x} 더하기 {y}는 {x+y} 입니다.";
+        // Console.WriteLine(add(3,5));
+        //
+        // Action<string> introduce = name => Console.WriteLine($"저는 {name} 입니다.");
+        // introduce("Tom");
+        //
+        // Store store = new Store();
+        // Customer customer = new Customer("Tom", store);
+        // store.Sell(customer);
     }
 }
 
