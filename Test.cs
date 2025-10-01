@@ -1,4 +1,4 @@
-﻿using Daily_Algorithm._2025_09.day0929;
+﻿using Daily_Algorithm._2025_10.day1001;
 
 namespace Daily_Algorithm;
 
@@ -6,8 +6,11 @@ public class Test
 {
     public static void Main()
     {
-        var a= new No05();
-        Console.Write(a.solution("x + 5"));
+        var a= new No02();
+        Console.WriteLine(a.solution(new int[,]{ {0,6}, {0,6}, {2,4} }));
+        Console.WriteLine(a.solution(new int[,]{ {0,8}, {0,2}, {6,8} }));
+        Console.WriteLine(a.solution(new int[,]{ {-100,-99}, {-100,-98}, {0,10} }));
+        // Console.Write(a.solution(new int[,]{ {0,8}, {0,2}, {6,8} }));
         
 
         // Me me = new Me();
