@@ -1,4 +1,4 @@
-﻿using Daily_Algorithm._2025_10.day1017;
+﻿using Daily_Algorithm._2025_10.day1020;
 
 namespace Daily_Algorithm;
 
@@ -7,9 +7,7 @@ public class Test
     public static void Main()
     {
         var a= new No02();
-        Console.WriteLine(a.solution(["yeayaye", "wooaya", "ayayemaaya", "wooyewoo", "ayayeayayeaya", "wooyemawooye", "yemayemayema"]));
-        Console.WriteLine(a.solution(["aye", "yeyema", "yayae", "maya", "mayaa", "wayaoo", "yayae", "woayao"]));
-        Console.WriteLine(a.solution(["mama", "yeye", "woowoo", "ayaaya"]));
+        Console.WriteLine(a.solution(["ABACD", "BCEFD"],["ABCD","AABB"]));
         
         // Me me = new Me();
         // me.introduce("Tom");
