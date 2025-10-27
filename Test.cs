@@ -1,4 +1,4 @@
-﻿using Daily_Algorithm._2025_10.day1025;
+﻿using Daily_Algorithm._2025_10.day1027;
 
 namespace Daily_Algorithm;
 
@@ -6,9 +6,9 @@ public class Test
 {
     public static void Main()
     {
-        var a= new No06();
-        Console.WriteLine(a.solution(78));
-        Console.WriteLine(a.solution(15));
+        var a= new No01();
+        Console.WriteLine(a.solution(100));
+        Console.WriteLine(a.solution(389893));
         
         // Me me = new Me();
         // me.introduce("Tom");
