@@ -1,4 +1,4 @@
-﻿using Daily_Algorithm._2025_10.day1028;
+﻿using Daily_Algorithm._2025_10.day1030;
 
 namespace Daily_Algorithm;
 
@@ -6,8 +6,8 @@ public class Test
 {
     public static void Main()
     {
-        var a= new No04();
-        Console.WriteLine(a.solution(["banana", "apple", "rice", "pork", "pot"],[3, 2, 2, 2, 1],["chicken", "apple", "apple", "banana", "rice", "apple", "pork", "banana", "pork", "rice", "pot", "banana", "apple", "banana"]));
+        var a= new No03();
+        Console.WriteLine(a.solution(80,new int[,]{{80,20},{50,40},{30,10}}	));
         
         // Me me = new Me();
         // me.introduce("Tom");
