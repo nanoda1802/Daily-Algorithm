@@ -6,24 +6,15 @@ public class Test
 {
     public static void Main()
     {
-        var a= new No03();
-        Console.WriteLine(a.solution(80,new int[,]{{80,20},{50,40},{30,10}}	));
-        
-        // Me me = new Me();
-        // me.introduce("Tom");
-        //
-        // Predicate<int> isEven = i => i % 2 == 0;
-        // bool check = isEven(5); // false
-        //
-        // Func<int,int,string> add = (x,y) => $"{x} 더하기 {y}는 {x+y} 입니다.";
-        // Console.WriteLine(add(3,5));
-        //
-        // Action<string> introduce = name => Console.WriteLine($"저는 {name} 입니다.");
-        // introduce("Tom");
-        //
-        // Store store = new Store();
-        // Customer customer = new Customer("Tom", store);
-        // store.Sell(customer);
+        int[] nums = { 4, 6, 7, 9, 3, 1 };
+        Sort.SelectionSort(nums);
+        foreach (int num in nums)
+        {
+            Console.Write(num);
+        }
+
+        // var a= new No03();
+        // Console.WriteLine(a.solution(80,new int[,]{{80,20},{50,40},{30,10}}	));
     }
 }
 
