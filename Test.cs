@@ -6,8 +6,8 @@ public class Test
 {
     public static void Main()
     {
-        int[] nums = { 4, 6, 7, 9, 3, 1 };
-        Sort.SelectionSort(nums);
+        int[] nums = { 12, 4, 15, 6, 11, 14, 5, 7, 13, 2, 10, 9, 3, 1, 8 };
+        Sort.QuickSort(nums,0,nums.Length-1);
         foreach (int num in nums)
         {
             Console.Write(num);

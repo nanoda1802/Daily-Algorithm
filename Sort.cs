@@ -45,4 +45,24 @@ public static class Sort
             }
         }
     }
+
+    public static void QuickSort(int[] arr, int left, int right)
+    {
+        if (left >= right) return;
+
+        int pivot = arr[(left + right) / 2];
+
+        (int curL, int curR) = (left, right);
+        
+        while (curL <= curR)
+        {
+            while (arr[curL] < pivot) curL++;
+            while (arr[curR] > pivot) curR--;
+
+            if (curL <= curR) Swap(arr,curL++,curR--);
+        }
+
+        if (left < curR) QuickSort(arr,left,curR);
+        if (curL < right) QuickSort(arr,curL,right);
+    }
 }
