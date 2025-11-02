@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Daily_Algorithm._2025_10.day1101;
+namespace Daily_Algorithm._2025_11.day1101;
 // 가장 큰 수
 // https://school.programmers.co.kr/learn/courses/30/lessons/42746
 
