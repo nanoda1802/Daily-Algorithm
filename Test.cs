@@ -1,4 +1,4 @@
-﻿using Daily_Algorithm._2025_10.day1030;
+﻿using Daily_Algorithm._2025_11.day1104;
 
 namespace Daily_Algorithm;
 
@@ -6,15 +6,9 @@ public class Test
 {
     public static void Main()
     {
-        int[] nums = { 12, 4, 15, 6, 11, 14, 5, 7, 13, 2, 10, 9, 3, 1, 8 };
-        Sort.QuickSort(nums,0,nums.Length-1);
-        foreach (int num in nums)
-        {
-            Console.Write(num);
-        }
-
-        // var a= new No03();
-        // Console.WriteLine(a.solution(80,new int[,]{{80,20},{50,40},{30,10}}	));
+        var a= new No02();
+        // Console.WriteLine(a.solution(9,new[,]{{1,3},{2,3},{3,4},{4,5},{4,6},{4,7},{7,8},{7,9}}));
+        Console.WriteLine(a.solution(12,new[,] {{1, 5}, {2, 5}, {3, 6}, {3, 7}, {3, 12}, {4, 5}, {4, 7}, {4, 10}, {8, 9}, {9, 10}, {11, 12}}));
     }
 }
 
