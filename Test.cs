@@ -1,4 +1,4 @@
-﻿using Daily_Algorithm._2025_11.day1114;
+using Daily_Algorithm._2025_11.day1114;
 
 namespace Daily_Algorithm;
 
@@ -6,13 +6,12 @@ public class Test
 {
     public static void Main()
     {
-        var a= new No03();
-        Console.WriteLine(a.solution("10",1));
-        Console.WriteLine(a.solution("1231234",3));
-        Console.WriteLine(a.solution("4177252841",4));
+        var a = new No03();
+        Console.WriteLine(a.solution("10", 1));
+        Console.WriteLine(a.solution("1231234", 3));
+        Console.WriteLine(a.solution("4177252841", 4));
     }
 }
-
 
 class Me
 {
@@ -25,12 +24,13 @@ class Me
         introduce += PrintAge;
         introduce += PrintHobby;
     }
-	
+
     private void PrintName(string name) => Console.WriteLine($"저는 {name} 입니다.");
+
     private void PrintAge(string name) => Console.WriteLine($"{name}은 20살입니다.");
+
     private void PrintHobby(string name) => Console.WriteLine($"{name}은 운동을 좋아합니다.");
 }
-
 
 public delegate void Alert();
 
