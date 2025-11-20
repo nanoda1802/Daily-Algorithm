@@ -1,4 +1,4 @@
-using Daily_Algorithm._2025_11.day1118;
+using Daily_Algorithm._2025_11.day1120;
 
 namespace Daily_Algorithm;
 
@@ -7,11 +7,8 @@ public class Test
     public static void Main()
     {
         var a = new No01();
-        // Console.WriteLine(a.solution(new string[,]{{"09:10", "10:10"}, {"10:20", "12:20"}}));
-        Console.WriteLine(a.solution(new string[,]{{"09:00", "16:00"}, {"10:00", "11:00"}, {"10:00", "13:00"}, {"15:10", "15:50"}}));
-        // Console.WriteLine(a.solution([1, 2, 3, 4, 5],7));
-        // Console.WriteLine(a.solution([1, 1, 1, 2, 3, 4, 5],5));
-        // Console.WriteLine(a.solution([2, 2, 2, 2, 2],6));
+        Console.WriteLine(a.solution([12, 16], [6, 18]));
+        // 4 2
     }
 }
 
