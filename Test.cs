@@ -1,40 +1,39 @@
-namespace Daily_Algorithm;
+namespace Daily_Algorithm._2025_11.day1129;
 
 public class Test
 {
     public static void Main()
     {
-        PriorityQueue1 pq = new PriorityQueue1(10);
-
-        for (int i = 1; i <= 20; i++) pq.Enqueue(i);
-        pq.Print();
-        Console.WriteLine("Count " + pq.Count);
-        Console.WriteLine("Peek " + pq.Peek());
-        Console.WriteLine("Dequeue " + pq.Dequeue());
+        var a = new No01();
+        Console.WriteLine(a.solution(new int[,]{{2,2,6},{1,5,10},{4,2,9},{3,8,3}}, 2,2,3));
         
-        pq.Print();
-        Console.WriteLine("Count " + pq.Count);
-
-        if (pq.TryPeek(out int item))
-        {
-            Console.WriteLine("TryPeek " + item);
-            if (pq.TryDequeue(out item))
-            {
-                Console.WriteLine("TryDequeue " + item);
-            }
-        }
-
-        while (pq.TryPeek(out item))
-        {
-            Console.WriteLine("While Dequeue" + pq.Dequeue());
-        }
-        
-        pq.Print();
-        Console.WriteLine("Count " + pq.Count);
-
-        // var a = new No01();
-        // Console.WriteLine(a.solution([12, 16], [6, 18]));
-        // 4 2
+        // PriorityQueue1 pq = new PriorityQueue1(10);
+        //
+        // for (int i = 1; i <= 20; i++) pq.Enqueue(i);
+        // pq.Print();
+        // Console.WriteLine("Count " + pq.Count);
+        // Console.WriteLine("Peek " + pq.Peek());
+        // Console.WriteLine("Dequeue " + pq.Dequeue());
+        //
+        // pq.Print();
+        // Console.WriteLine("Count " + pq.Count);
+        //
+        // if (pq.TryPeek(out int item))
+        // {
+        //     Console.WriteLine("TryPeek " + item);
+        //     if (pq.TryDequeue(out item))
+        //     {
+        //         Console.WriteLine("TryDequeue " + item);
+        //     }
+        // }
+        //
+        // while (pq.TryPeek(out item))
+        // {
+        //     Console.WriteLine("While Dequeue" + pq.Dequeue());
+        // }
+        //
+        // pq.Print();
+        // Console.WriteLine("Count " + pq.Count);
     }
 }
 
