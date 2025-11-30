@@ -1,11 +1,16 @@
-namespace Daily_Algorithm._2025_11.day1129;
+namespace Daily_Algorithm._2025_11.day1130;
 
 public class Test
 {
     public static void Main()
     {
         var a = new No01();
-        Console.WriteLine(a.solution(new int[,]{{2,2,6},{1,5,10},{4,2,9},{3,8,3}}, 2,2,3));
+        foreach (var VARIABLE in a.solution(new string[,]{{"OOOOO", "OOOOO", "OPOPO", "OOOOO", "OOOOO"}}))
+        {
+            Console.WriteLine(VARIABLE);
+        }
+        
+        Console.WriteLine(a.solution(new string[,]{{"OOOOO", "OOOOO", "OPOPO", "OOOOO", "OOOOO"}}));
         
         // PriorityQueue1 pq = new PriorityQueue1(10);
         //
